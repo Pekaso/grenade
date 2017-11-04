@@ -9,15 +9,15 @@
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    pekaso
 #define PRODUCT         Grenade
-#define DESCRIPTION     Grenade
+#define DESCRIPTION     40%Keyboard
 
 /* key matrix size */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { B0, B1, B2, B3 }
-#define MATRIX_COL_PINS { D5, C7, C6, D3, D2, D1, F7, F6, F5, F4, F1, F0 }
+#define MATRIX_ROW_PINS { D0, D1, D2, D3 }
+#define MATRIX_COL_PINS { C7, D6, B7, B6, D7, C6, F7, F6, F5, F4, F1, F0 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
